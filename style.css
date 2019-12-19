@@ -10,11 +10,11 @@ html, body {
     height: 100%;
     padding: 0;
     background-color: #8ae6ff;  
-    margin:0 auto;
+    margin-right: 0px auto;
     color: #303030;
     font: Verdana, Arial, Sans-Serif;
-    margin-right: 0px auto;    
-}
+   }
+
 html{
     margin-top: 0 auto;
     font-family: Aclonica;
@@ -23,10 +23,9 @@ html{
 
 
 main {
-    margin-left: 0 auto;
-    margin-right: 0 auto;
-    width: 700px;
+    margin: 0 auto;
     position: relative;
+    width: 700px;
 }
 
 
@@ -78,12 +77,14 @@ nav ul {
     overflow: hidden;
     position: sticky;
     top: 0;
+    
 }
 
 nav ul li {
     float: left;
     position: sticky;
     top: 0;
+    
 }
 
 nav li a {
@@ -94,19 +95,23 @@ nav li a {
     text-decoration: none;
     position: sticky;
     top: 0;
+    
 }
 
 nav li a:hover {
     background-color: #000000;
     position: sticky;
     top: 0;
+    text-shadow: 5px 5px 6px rgb(199, 56, 151);
 }
 
 nav li a.active {
     background-color: #65266e;
     position: sticky;
     top: 0;
+    
 }
+    
 .Pic-Brawlhalla { 
 
     z-index; 1;
